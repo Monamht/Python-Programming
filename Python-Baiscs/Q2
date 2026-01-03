@@ -1,0 +1,22 @@
+'''Create a program that displays your name and complete mailing address. The address should be
+printed in the format that is normally used in the area where you live. Your program does not need to
+read any input from the user.'''
+
+name=input("Enter name:")
+email_address=input("Enter your email id:")
+address=input("Enter address:")
+print(name)
+print(email_address)
+print(address)
+
+expected output
+
+Enter name:Monisha
+Enter your email id:mnishamht05@gmail.com
+Enter address:Sakchi, Jamshedpur , Jharkhand
+
+Monisha
+mnishamht05@gmail.com
+Sakchi, Jamshedpur , Jharkhand
+
+
