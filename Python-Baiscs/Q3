@@ -1,0 +1,15 @@
+#Given an expression P(x) = x3 + 2x2 + 3x + 4, try to find the value of P(2) pythonically.
+x=2
+result=x**3 +2*x**2 +3*x+4
+print(result)
+
+Expected output
+26
+
+#Another way to solve this problem 
+def P(x):
+   return x**3 +2*x**2 +3*x+4
+print(P(2))
+
+Expected output
+26
